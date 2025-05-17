@@ -1,6 +1,6 @@
 name: Greetings
 
-on: [pull_request_target, issues] # EVENT IT TRIGGERS ON
+on: [pull_request_target, issues, pull_request] # EVENT IT TRIGGERS ON
 
 jobs:
   greeting:
